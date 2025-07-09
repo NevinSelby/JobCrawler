@@ -26,13 +26,13 @@ class LinkedInJobCrawler:
         
         # Set file paths
         if config_file is None:
-            config_file = base_dir / "carwler.json"
+            config_file = base_dir / "crawler.json"
         
         database_path = base_dir / "database.json"
         
         # Default configuration for entry-level data science/ML/analyst roles
         self.config = {
-            'job_url': 'https://www.linkedin.com/jobs/search/?f_TPR=r3600&f_E=1%2C2&keywords=data%20science%20entry%20level%20OR%20data%20analyst%20junior%20OR%20ML%20engineer%20new%20grad',
+            'job_url': 'https://www.linkedin.com/jobs/search/?f_TPR=r7200&keywords=data%20scientist%20OR%20data%20analyst%20OR%20machine%20learning%20OR%20business%20analyst&location=United%20States',
             'keywords': ['data science', 'data scientist', 'data analyst', 'machine learning', 'ml engineer', 'business analyst', 'research analyst', 'junior', 'entry level', 'new grad', 'associate', 'python', 'sql', 'analytics'],
             'excluded_keywords': ['senior', 'lead', 'principal', 'director', 'manager', '5+ years', '4+ years', '3+ years', 'experienced'],
             'database_file': str(database_path),
@@ -185,9 +185,19 @@ class LinkedInJobCrawler:
             scroll_count = 0
             last_height = self.driver.execute_script("return document.body.scrollHeight")
             
-            while scroll_count < 3:  # Reduced scrolling to avoid detection
+            while scroll_count < 6:  # Increased scrolling to get more jobs (24 hours worth)
                 self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
                 time.sleep(random.uniform(2, 4))
+                
+                # Try to click "Show more" button if it exists
+                try:
+                    show_more_button = self.driver.find_element(By.XPATH, "//button[contains(text(), 'Show more') or contains(text(), 'See more')]")
+                    if show_more_button.is_displayed():
+                        show_more_button.click()
+                        time.sleep(random.uniform(1, 2))
+                except:
+                    pass
+                
                 new_height = self.driver.execute_script("return document.body.scrollHeight")
                 if new_height == last_height:
                     break
@@ -346,7 +356,7 @@ class LinkedInJobCrawler:
     def run_once(self):
         """Run the LinkedIn job crawler once."""
         print(f"Starting LinkedIn job scraping at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        print(f"Looking for entry-level data science/ML/analyst jobs posted in the last 24 hours")
+        print(f"Looking for entry-level data science/ML/analyst jobs posted in the last 2 hours")
         
         # Scrape LinkedIn jobs
         current_jobs = self.scrape_linkedin_jobs()
@@ -401,7 +411,7 @@ if __name__ == "__main__":
                 print(f"   URL: {job['url']}")
                 print()
         else:
-            print("\nNo new entry-level data science/ML/analyst jobs found on LinkedIn in the last 24 hours.")
+            print("\nNo new entry-level data science/ML/analyst jobs found on LinkedIn in the last 2 hours.")
             
     except KeyboardInterrupt:
         print("\nJob crawler stopped by user")

@@ -38,5 +38,105 @@
         "source": "LinkedIn",
         "scraped_date": "2025-07-09 03:02:48",
         "email_sent": false
+    },
+    {
+        "title": "Junior Data Scientists Analysts",
+        "company": "Lensa",
+        "location": "Dearborn, MI",
+        "date_posted": "8 hours ago",
+        "url": "https://www.linkedin.com/jobs/view/junior-data-scientists-analysts-at-lensa-4264277383?position=1&pageNum=0&refId=rTOVAwpiysQcBd%2BwK4m04w%3D%3D&trackingId=ROtnEzwLyVak0BrfaKKm3w%3D%3D",
+        "source": "LinkedIn",
+        "scraped_date": "2025-07-09 03:13:01",
+        "email_sent": true
+    },
+    {
+        "title": "Data Scientist, Analytics - Safety Response",
+        "company": "Discord",
+        "location": "San Francisco Bay Area",
+        "date_posted": "7 hours ago",
+        "url": "https://www.linkedin.com/jobs/view/data-scientist-analytics-safety-response-at-discord-4263153370?position=2&pageNum=0&refId=rTOVAwpiysQcBd%2BwK4m04w%3D%3D&trackingId=C%2FVaSiB7LOVvcFo7akzN9Q%3D%3D",
+        "source": "LinkedIn",
+        "scraped_date": "2025-07-09 03:13:01",
+        "email_sent": true
+    },
+    {
+        "title": "Junior Data Science Engineer",
+        "company": "CloudFit Software",
+        "location": "Lynchburg, VA",
+        "date_posted": "13 hours ago",
+        "url": "https://www.linkedin.com/jobs/view/junior-data-science-engineer-at-cloudfit-software-4259776469?position=3&pageNum=0&refId=rTOVAwpiysQcBd%2BwK4m04w%3D%3D&trackingId=9BKwhoTsytrPAUfrvYdAqw%3D%3D",
+        "source": "LinkedIn",
+        "scraped_date": "2025-07-09 03:13:01",
+        "email_sent": true
+    },
+    {
+        "title": "Junior Data Scientist",
+        "company": "Lensa",
+        "location": "Arlington, VA",
+        "date_posted": "8 hours ago",
+        "url": "https://www.linkedin.com/jobs/view/junior-data-scientist-at-lensa-4264274941?position=2&pageNum=0&refId=6Wd24%2FoBEks13Aonv1KoPw%3D%3D&trackingId=Vo1%2BmvdDCe50tw7%2Fol8IIQ%3D%3D",
+        "source": "LinkedIn",
+        "scraped_date": "2025-07-09 03:13:56",
+        "email_sent": true
+    },
+    {
+        "title": "Data Scientist",
+        "company": "L.E.K. Consulting",
+        "location": "New York, United States",
+        "date_posted": "5 hours ago",
+        "url": "https://www.linkedin.com/jobs/view/data-scientist-at-l-e-k-consulting-4263176181?position=3&pageNum=0&refId=6Wd24%2FoBEks13Aonv1KoPw%3D%3D&trackingId=ZEMk%2FRUUr9GTxDA9uIapFg%3D%3D",
+        "source": "LinkedIn",
+        "scraped_date": "2025-07-09 03:13:56",
+        "email_sent": false
+    },
+    {
+        "title": "Data Scientist - Workforce Analytics",
+        "company": "OP",
+        "location": "Plano, TX",
+        "date_posted": "9 hours ago",
+        "url": "https://www.linkedin.com/jobs/view/data-scientist-workforce-analytics-at-op-4253305650?position=2&pageNum=0&refId=aIUtmscFENPG38LwNVZ7Kw%3D%3D&trackingId=xD%2FSB8NeNO9zNlkMIEn%2B0Q%3D%3D",
+        "source": "LinkedIn",
+        "scraped_date": "2025-07-09 03:14:29",
+        "email_sent": true
+    },
+    {
+        "title": "Data Scientist, Product Analytics",
+        "company": "Meta",
+        "location": "San Francisco, CA",
+        "date_posted": "21 hours ago",
+        "url": "https://www.linkedin.com/jobs/view/data-scientist-product-analytics-at-meta-4187594996?position=3&pageNum=0&refId=aIUtmscFENPG38LwNVZ7Kw%3D%3D&trackingId=6nIY5tLIT7UGHQlkmBkcOg%3D%3D",
+        "source": "LinkedIn",
+        "scraped_date": "2025-07-09 03:14:29",
+        "email_sent": true
+    },
+    {
+        "title": "Staff Data Scientist - Infrastructure",
+        "company": "LinkedIn",
+        "location": "Sunnyvale, CA",
+        "date_posted": "16 minutes ago",
+        "url": "https://www.linkedin.com/jobs/view/staff-data-scientist-infrastructure-at-linkedin-4210109325?position=1&pageNum=0&refId=bGJH5axoPWwFXgGhC8KKhg%3D%3D&trackingId=S1VilPdgvTrf4tOBiYlTKQ%3D%3D",
+        "source": "LinkedIn",
+        "scraped_date": "2025-07-09 03:16:29",
+        "email_sent": true
+    },
+    {
+        "title": "Machine Learning Engineer, Pricing",
+        "company": "Uber",
+        "location": "Sunnyvale, CA",
+        "date_posted": "1 hour ago",
+        "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-pricing-at-uber-4264567894?position=2&pageNum=0&refId=bGJH5axoPWwFXgGhC8KKhg%3D%3D&trackingId=RiKOnmfydhhltOd7L201vQ%3D%3D",
+        "source": "LinkedIn",
+        "scraped_date": "2025-07-09 03:16:29",
+        "email_sent": true
+    },
+    {
+        "title": "Data Scientist II, Instrumentation & Experimentation",
+        "company": "Teladoc Health",
+        "location": "United States",
+        "date_posted": "2 hours ago",
+        "url": "https://www.linkedin.com/jobs/view/data-scientist-ii-instrumentation-experimentation-at-teladoc-health-4264557794?position=3&pageNum=0&refId=bGJH5axoPWwFXgGhC8KKhg%3D%3D&trackingId=R11yhoZyohjhIcXyKZtWnA%3D%3D",
+        "source": "LinkedIn",
+        "scraped_date": "2025-07-09 03:16:29",
+        "email_sent": true
     }
 ]
